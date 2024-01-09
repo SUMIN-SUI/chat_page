@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅창</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./chatpage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="user">
+        <div class="user_img">
+          <img src="./chatpage_img/img.jpg" alt="프로필이미지" />
+        </div>
+        <div class="user_detail">
+          <p>물개</p>
+          <span>&nbsp;🌊🐋🐬🐟🐠🐡🦐🦑🐙🦞🦀🐚</span>
+        </div>
+      </div>
+
+      <div class="chat">
+        <ul class="chat_detail">
+          <li>
+            <div class="text">
+              <img
+                class="another_user_img"
+                src="./chatpage_img/whale.jpg"
+                alt="고래이미지"
+              />
+              <p class="text_content">물개 안녕</p>
+            </div>
+          </li>
+          <li>
+            <div class="text me">
+              <p class="text_content">고래 안녕</p>
+              <div class="user_chat_img">
+                <img src="./chatpage_img/img.jpg" alt="프로필이미지" />
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="text">
+              <img
+                class="another_user_img"
+                src="./chatpage_img/whale.jpg"
+                alt="고래이미지"
+              />
+              <p class="text_content">HIHI</p>
+            </div>
+          </li>
+          <li>
+            <div class="text me">
+              <p class="text_content">HIHI</p>
+              <div class="user_chat_img">
+                <img src="./chatpage_img/img.jpg" alt="프로필이미지" />
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="text">
+              <img
+                class="another_user_img"
+                src="./chatpage_img/whale.jpg"
+                alt="고래이미지"
+              />
+              <p class="text_content">얀녕하세오</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <form>
+        <textarea id="message" placeholder="메세지를 입력하세요."></textarea>
+        <input type="submit" value="전송" class="button" />
+      </form>
+    </div>
+  </body>
+</html>

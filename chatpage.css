@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  letter-spacing: 0.2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  height: auto;
+  background-color: beige;
+  margin: 50px auto 0;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  background-color: rgba(127, 225, 230, 0.4);
+  padding: 20px;
+}
+
+.user_img > img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.user_chat_img > img {
+  position: absolute;
+  bottom: -8px;
+  right: -5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+}
+
+.another_user_img {
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  margin-right: 6px;
+}
+
+.user_detail > p {
+  margin-bottom: 2px;
+}
+
+.chat {
+  padding: 30px 14px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.chat_detail {
+  width: 100%;
+  height: 500px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.text_content {
+  width: 300px;
+  height: auto;
+  padding: 6px 20px;
+  border-radius: 18px;
+  border: 2px solid darkgray;
+  background-color: white;
+}
+
+.text.me {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+}
+
+#message {
+  border: none;
+  border-radius: 20px;
+  width: 85%;
+  height: 60px;
+  font-size: 20px;
+  padding: 8px 14px;
+  outline: none;
+}
+
+.button {
+  padding: 16px 18px;
+  border: none;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+  background-color: rgba(127, 225, 230, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(18, 224, 165, 0.4);
+}
+
+.button:active {
+  border: 3px solid rgba(18, 170, 165, 0.2);
+}
